@@ -1,0 +1,50 @@
+    progress {
+        width: 200px;
+        height: 200px;
+        border: 4px solid rgb(16, 141, 163);
+        color: rgb(121, 22, 22);
+        border-radius: 50%;
+        overflow: hidden;
+        transform: rotate(45deg);
+    }
+    /* 
+
+how can i using js in back end and front end?
+why i did not putting script down of body?
+objects has more keywords inside the window
+
+
+
+*/
+    
+    .animate {
+        width: fit-content;
+        height: 40px;
+        line-height: 40px;
+        margin: auto;
+        /* background-color: rgb(129, 109, 109); */
+        text-align: center;
+        overflow: hidden;
+        text-transform: capitalize;
+        border-right: 1px solid #000;
+    }
+    
+    .animate div {
+        position: relative;
+        animation: moving 3s ease infinite alternate;
+        -webkit-animation: moving 3s ease infinite alternate;
+    }
+    
+    @keyframes moving {
+        0% {
+            left: 0;
+        }
+        100% {
+            left: 55%;
+        }
+    }
+    
+    input {
+        width: 400px;
+        display: block;
+    }
